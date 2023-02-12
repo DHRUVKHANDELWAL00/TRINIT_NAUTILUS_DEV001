@@ -1,0 +1,305 @@
+*{
+
+}
+#title{
+  background-color: #95E1D3;
+  color: #fff;
+  height: 900px;
+}
+body{
+  font-family: Montserrat;
+  background-image: image('/img/pic1.jpg');
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+/*navigantion bar*/
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: black ;
+}
+.nav-link{
+  font-size: 1.5rem;
+  font-weight: lighter;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+}
+/*download buttons*/
+.download-button{
+  margin: 50% 3% 0% 5%;
+}
+/*title image*/
+.row{
+  margin-bottom: 100px;
+}
+.title-image{
+  width: 20%;
+  height: 200px;
+  position:absolute;
+  right: 20%;
+
+}
+.inf{
+  padding-bottom: 50px;
+}
+h1{
+  text-align: center;
+}
+h2{
+  font-family: ubuntu;
+  font size: 3rem;
+  line-height: 1.5;
+}
+h3{
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+
+}
+p{
+  color: #8f8f8f;
+
+}
+.page{display: inline-block;}
+
+.icon{
+  color: #95E1D3;
+  margin-bottom: 1.25rem;
+  height: 50px;
+}
+.icon:hover {
+  color: black;
+}
+.explore{
+  padding:100px;
+  background-color: #95E1D3;
+}
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 1400px;
+  padding: 20px 10px;
+}
+
+
+.gallery .card {
+  width: 100%;
+  border:0px;
+  max-width: 350px;
+  height: 300px;
+  margin-bottom: 5rem;
+  border-radius: 10px;
+}
+.search-wrapper{
+  display:flex;
+  flex-direction: column;
+  gap: .25rem;
+}
+input{
+  font-size: 1rem;
+}
+.d-flex{
+  margin-left:470px;
+  align-items: center;
+  width:500px;
+}
+
+.gallery::after {
+  content: "";
+  width: 350px;
+}
+/*feature box*/
+#features {
+
+  padding: 7% 15%;
+
+  text-align: center;
+
+  position: relative;
+
+
+
+  background-color: #fff;
+
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+/*testimonials*/
+#testimonials{
+  height: 400px;
+  text-align: center;
+  background-color:  #95E1D3;
+  color: #fff;
+
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin:20px;
+
+
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+#press{
+  background-color: #95E1D3;
+  text-align: center;
+}
+.press-img{
+  width:10%;
+  margin: 20px 30px 50px;
+}
+input {
+  font: 19px "Open Sans", Helvetica, Arial, Sans-serif;
+  border-radius: 3px;
+  box-shadow: 0 2px 2px #000;
+}
+
+.page {
+  background-image: image("../public/img/pic1.jpg");
+  height: 500px;
+  width: max-width;
+  padding: 10px;
+  display:block;
+  align-items: center;
+}
+.page-head{
+  padding-top: 50px;
+  padding-bottom: 100px;
+  font-size: 3rem;
+}
+.page-wala{
+  align-self: center;
+}
+
+form input,
+form input:focus {
+  padding: 10px 13px;
+  border: 0;
+  outline: 0;
+}
+
+form input[type="email"] {
+  margin-right: 15px;
+  width: 300px;
+  color: #a09f9f;
+}
+
+form input[type="submit"] {
+  padding: 10px 15px;
+  color: #c0d6db;
+  background: #95E1D3;
+  text-shadow: 0 2px 2px #333;
+  box-shadow: inset 0 0 0 transparent;
+  background: #95E1D3;
+  background: linear-gradient(to bottom, #95E1D3 0%,#95E1D3 100%);
+  transition: all .3s ease-in-out;
+}
+
+form input[type="submit"]:hover,
+form input[type="submit"]:focus {
+  box-shadow: inset 0 0 50px rgba(255,255,255, 0.3),
+                    0 0 10px rgba(255,255,255, 0.1);
+  color: white;
+  margin-left: 10px;
+}
+
+#cta{
+  items-align:center;
+  background-color:  #fff;
+  height: 500px;
+  text-align: center;
+  padding-top: 200PX;
+  padding: :100px;
+
+}
+.cta-h3{
+  font-family: "Montserrat-black"
+  padding: 7% 15%;
+  margin:15px;
+  font-size: 3.5rem;
+}
+#footer{
+  background-color: #95E1D3;
+  text-align: center;
+  height: 300px;
+  padding-top: 100PX;
+
+}
+.social-icon{
+  margin: 20px 10px;
+}
+@media (max-width:1034px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+    padding-top: 25px;
+    height: 500px;
+    width: 250px;
+  }
+
+}
+.user-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: .25rem;
+  margin-top: 1rem;
+}
+
+.card {
+  border: 1px solid black;
+  background-color: white;
+  padding: .5rem;
+}
+
+.card > .header {
+  margin-bottom: .25rem;
+}
+
+.card > .body {
+  font-size: .8rem;
+  color: #777;
+}
+
+.hide {
+  display: none;
+}
+
+
+#myInput {
+  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 100%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+.jhgf{
+  padding:50px;
+}
